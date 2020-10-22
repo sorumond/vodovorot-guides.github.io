@@ -1,115 +1,168 @@
 categories:
   - title: Элем
+    url: /ele/intro.html
     subcategories:
-      - title: Препатч
-        url: /guides/elemental/prepatch.html
-      - title: Кратко и быстро
-        url: /guides/elemental/tldr.html
-      - title: Новинки Shadowlands
-        url: /guides/elemental/shadowlands.html
-      - title: divider
-      - title: Ковенанты
-        url: /guides/elemental/covenants.html
-      - title: Таланты
-        url: /guides/elemental/talents.html
-      - title: Легендарки
-        url: /guides/elemental/legendaries.html
-      - title: Проводники
-        url: /guides/elemental/soulbinds.html
-      - title: Ротация
-        url: /guides/elemental/rotation.html
-      - title: Статы
-        url: /guides/elemental/stats.html
-      - title: Тринкеты
-        url: /guides/elemental/trinkets.html
-      - title: Шмот
-        url: /guides/elemental/gear.html
-      - title: Расходники
-        url: /guides/elemental/consumables.html
-      - title: Weakauras
-        url: /guides/elemental/weakauras.html
+      - title: Препатч Shadowlands
+        url: /ele/prepatch.html
+      - title: Гайд
+        url: /ele/intro.html
+        subsubcategories:
+        - title: Вступление
+          url: /ele/intro.html
+        - title: Кратко и быстро
+          url: /ele/tldr.html
+          disabled: true
+        - title: Ковенанты
+          url: /ele/covenants.html
+        - title: Легендарки
+          url: /ele/legendaries.html
+        - title: Проводники
+          url: /ele/conduits.html
+        - title: Таланты
+          url: /ele/talents.html
+          disabled: true
+        - title: Ротация
+          url: /ele/rotation.html
+          disabled: true
+        - title: Статы и BiS вещи
+          url: /ele/stats_and_gear.html
+          disabled: true
+        - title: Расходники
+          url: /ele/consumables.html
+          disabled: true
+        - title: Weakauras
+          url: /ele/weakauras.html
       - title: FAQ
-      - title: divider
-        url: /guides/elemental/faq.html
+        url: /ele/faq.html
+        disabled: true
+      - title: Замок Нафрия
+        url: /ele/nathria.html
+        disabled: true
+        divided: true
       - title: Мифик+
-        url: /guides/elemental/mythicplus.html
-      - title: Рейд
-        url: /guides/elemental/raid.html
+        url: /ele/mythicplus.html
+        disabled: true
       - title: PVP
-        url: /guides/elemental/pvp.html
+        url: /ele/pvp.html
+        disabled: true
+
   - title: Энх
+    url: /enh/intro.html
     subcategories:
-      - title: Препатч
-        url: /guides/enhancement/prepatch.html
-      - title: Кратко и быстро
-        url: /guides/enhancement/tldr.html
-      - title: Новинки Shadowlands
-        url: /guides/enhancement/shadowlands.html
-      - title: divider
-      - title: Ковенанты
-        url: /guides/enhancement/covenants.html
-      - title: Таланты
-        url: /guides/enhancement/talents.html
-      - title: Легендарки
-        url: /guides/enhancement/legendaries.html
-      - title: Проводники
-        url: /guides/enhancement/soulbinds.html
-      - title: Ротация
-        url: /guides/enhancement/rotation.html
-      - title: Статы
-        url: /guides/enhancement/stats.html
-      - title: Тринкеты
-        url: /guides/enhancement/trinkets.html
-      - title: Шмот
-        url: /guides/enhancement/gear.html
-      - title: Расходники
-        url: /guides/enhancement/consumables.html
-      - title: Weakauras
-        url: /guides/enhancement/weakauras.html
+      - title: Препатч Shadowlands
+        url: /enh/prepatch.html
+      - title: Гайд
+        url: /enh/intro.html
+        subsubcategories:
+        - title: Вступление
+          url: /enh/intro.html
+        - title: Кратко и быстро
+          url: /enh/tldr.html
+          disabled: true
+        - title: Ковенанты
+          url: /enh/covenants.html
+        - title: Легендарки
+          url: /enh/legendaries.html
+        - title: Проводники
+          url: /enh/conduits.html
+        - title: Таланты
+          url: /enh/talents.html
+          disabled: true
+        - title: Ротация
+          url: /enh/rotation.html
+          disabled: true
+        - title: Статы и BiS вещи
+          url: /enh/stats_and_gear.html
+          disabled: true
+        - title: Расходники
+          url: /enh/consumables.html
+          disabled: true
+        - title: Weakauras
+          url: /enh/weakauras.html
       - title: FAQ
-        url: /guides/enhancement/faq.html
-      - title: divider
+        url: /enh/faq.html
+        disabled: true
+      - title: Замок Нафрия
+        url: /enh/nathria.html
+        disabled: true
+        divided: true
       - title: Мифик+
-        url: /guides/enhancement/mythicplus.html
-      - title: Рейд
-        url: /guides/enhancement/raid.html
+        url: /enh/mythicplus.html
+        disabled: true
       - title: PVP
-        url: /guides/enhancement/pvp.html
+        url: /enh/pvp.html
+        disabled: true
+
   - title: Рестор
+    url: /resto/intro.html
     subcategories:
-      - title: Препатч
-        url: /guides/restoration/prepatch.html
-      - title: Кратко и быстро
-        url: /guides/restoration/tldr.html
-      - title: Новинки Shadowlands
-        url: /guides/restoration/shadowlands.html
-      - title: divider
-      - title: Ковенанты
-        url: /guides/restoration/covenants.html
-      - title: Таланты
-        url: /guides/restoration/talents.html
-      - title: Легендарки
-        url: /guides/restoration/legendaries.html
-      - title: Проводники
-        url: /guides/restoration/soulbinds.html
-      - title: Ротация
-        url: /guides/restoration/rotation.html
-      - title: Статы
-        url: /guides/restoration/stats.html
-      - title: Тринкеты
-        url: /guides/restoration/trinkets.html
-      - title: Шмот
-        url: /guides/restoration/gear.html
-      - title: Расходники
-        url: /guides/restoration/consumables.html
-      - title: Weakauras
-        url: /guides/restoration/weakauras.html
+      - title: Препатч Shadowlands
+        url: /resto/prepatch.html
+      - title: Гайд
+        url: /resto/intro.html
+        subsubcategories:
+        - title: Вступление
+          url: /resto/intro.html
+        - title: Кратко и быстро
+          url: /resto/tldr.html
+          disabled: true
+        - title: Ковенанты
+          url: /resto/covenants.html
+        - title: Легендарки
+          url: /resto/legendaries.html
+        - title: Проводники
+          url: /resto/conduits.html
+        - title: Таланты
+          url: /resto/talents.html
+          disabled: true
+        - title: Ротация
+          url: /resto/rotation.html
+          disabled: true
+        - title: Статы и BiS вещи
+          url: /resto/stats_and_gear.html
+          disabled: true
+        - title: Расходники
+          url: /resto/consumables.html
+          disabled: true
+        - title: Weakauras
+          url: /resto/weakauras.html
       - title: FAQ
-        url: /guides/restoration/faq.html
-      - title: divider
+        url: /resto/faq.html
+        disabled: true
+      - title: Замок Нафрия
+        url: /resto/nathria.html
+        disabled: true
+        divided: true
       - title: Мифик+
-        url: /guides/restoration/mythicplus.html
-      - title: Рейд
-        url: /guides/restoration/raid.html
+        url: /resto/mythicplus.html
+        disabled: true
       - title: PVP
-        url: /guides/restoration/pvp.html
+        url: /resto/pvp.html
+        disabled: true
+
+  - title: Инфо
+    subcategories:
+      - title: Сокращения
+        url: /info/abbrevs.html
+      - title: Макросы
+        url: /info/macros.html
+      - title: Количество целей заклинаний
+        url: /info/target_cap.html
+      - title: QE Live – гайд
+        url: /info/qelive.html
+        disabled: true
+      - title: WarcraftLogs – гайд
+        url: /info/wcl.html
+        disabled: true
+      - title: Raidbots – гайд
+        url: /info/raidbots.html
+        disabled: true
+      - title: WoW Analyzer – гайд
+        url: /info/wowa.html
+        disabled: true
+      - title: Почему логи хилов не важны
+        url: /info/heallogs.html
+        disabled: true
+      - title: Авторы и благодарности
+        url: /info/patrons.html
+        divided: true

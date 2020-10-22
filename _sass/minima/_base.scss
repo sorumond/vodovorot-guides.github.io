@@ -26,6 +26,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  height: 100%;
 }
 
 
@@ -107,7 +108,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    //color: darken($brand-color, 15%);
   }
 
   &:hover {
@@ -124,15 +125,14 @@ a {
   }
 }
 
-
 /**
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
+  color: $text-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
+  font-size: 1rem;
   letter-spacing: -1px;
   font-style: italic;
 
@@ -140,8 +140,6 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
  * Code formatting
@@ -151,21 +149,42 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+//  background-color: #eef;
 }
 
 code {
   padding: 1px 5px;
 }
 
+code > button.copy-btn {
+    position: absolute;
+    top:0;
+    right:0;
+    //display: none;
+    display: block;
+    border: 0;
+    margin-top: 1px;
+    margin-right: 1px;
+  @include media-query($on-laptop) {
+    display: block;
+  }
+}
+
+pre:hover > code > button.copy-btn {
+    display: block;
+}
+
+
 pre {
   padding: 8px 12px;
-  overflow-x: auto;
+  position: relative;
 
   > code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
+    white-space: pre-line;
+    word-break: break-word;
   }
 }
 
@@ -179,18 +198,27 @@ pre {
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+//  padding-right: $spacing-unit;
+//  padding-left: $spacing-unit;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    //padding-right: $spacing-unit / 2;
+    //padding-left: $spacing-unit / 2;
   }
 }
 
+.wrapper-page {
+    flex: 1;
+    background-color: $content-bg-color;
+    padding: $spacing-unit 40px;
+  @include media-query($on-laptop) {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+}
 
 
 /**

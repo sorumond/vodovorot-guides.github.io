@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "ru" }}">
+
+  {%- include head.html -%}
+
+  <body data-spy="scroll" data-target="#tocbar">
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper wrapper-page">
+        {{ content }}
+      </div>
+    {%- include side_menu.html -%}
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
